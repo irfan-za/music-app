@@ -1,0 +1,40 @@
+.song-container{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 20%;
+        border-radius: 50%;
+    } 
+    .img-rotate-actived{
+          animation: rotasi 6s linear infinite;
+        }
+        .img-rotate-paused{
+          animation-play-state: paused;
+        }
+    h2{
+        padding: 3rem 1rem 1rem 1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+  
+}
+@keyframes rotasi {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @media screen and (max-width: 768px){
+    .song-container{
+      img{
+        width: 60%;
+      }
+    }
+  }

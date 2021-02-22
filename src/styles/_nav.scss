@@ -1,0 +1,35 @@
+.nav{
+
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    button{
+        border-radius: 3px;
+        padding: .5rem;
+        font-size: 14px;
+        background: #fff;
+        cursor: pointer;
+        // border: 2px solid rgb(65, 65, 65);
+        border: none;
+        outline: none;
+        color: rgb(0, 0, 0);
+        box-shadow: 3px 3px 5px rgb(94, 94, 94);
+        transition: all 0.3s ease;
+        &:hover{
+            background: rgb(65, 65, 65);
+            color: #fff;
+        }
+        &:active{
+            box-shadow: none;
+            transform: translate(3px,3px);
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    nav{
+        button{
+            z-index: 2;
+        }
+    }
+}
