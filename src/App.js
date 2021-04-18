@@ -43,9 +43,14 @@ function App() {
     });
     console.log(songInfo);
   };
-
+  const color1 = currentSong.color[1];
   return (
-    <div className={`App ${libraryStatus ? "library-active" : ""}`}>
+    <div
+      className={`App bg${libraryStatus ? "library-active" : ""}`}
+      style={{
+        background: `linear-gradient(${color1} 50%,transparent )`,
+      }}
+    >
       <Nav setLibraryStatus={setLibraryStatus} libraryStatus={libraryStatus} />
       <Song
         currentSong={currentSong}
@@ -72,6 +77,7 @@ function App() {
         audioRef={audioRef}
         setSongs={setSongs}
       />
+
       <audio
         onTimeUpdate={timeHandler}
         onLoadedMetadata={timeHandler}

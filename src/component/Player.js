@@ -124,7 +124,7 @@ function Player({
             id=""
             className="range-music"
           />
-          <div class="animate-track" style={trackAnim}></div>
+          <div className="animate-track" style={trackAnim}></div>
         </div>
         <p>{songInfo.duration ? getTime(songInfo.duration) : "0:00"}</p>
       </div>

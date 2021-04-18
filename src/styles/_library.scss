@@ -1,11 +1,12 @@
+
 .library{
     position: fixed ;
     top: 0;
     left: 0;
     width: 20rem;
     height: 100%;
-    background: white;
-    box-shadow: 2px 2px 5px rgb(204, 204, 204);
+    background: #fff;
+    filter: drop-shadow(2px 2px 5px rgb(204, 204, 204)); 
     overflow: scroll;
     transform: translateX(-100%) ;
     opacity: 0;
