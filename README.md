@@ -1,12 +1,11 @@
 # Music app with reactJS
 
-Link DEMO [Music App](https://irfan-za.github.io/music-app).
+This is music app that I made with React Js from scratch.
+Link DEMO👉 [Music App](https://irfan-za.github.io/music-app).
 
+How To use:
+1. Click the play button to play the song.
+2. Click the next or previous button to play next/previous song.
+3. Click the library button to see our music library.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
