@@ -41,7 +41,7 @@ function App() {
       duration: duration,
       animationPercentage: animationPercentage,
     });
-    console.log(songInfo);
+//     console.log(songInfo);
   };
   const color1 = currentSong.color[1];
   return (
